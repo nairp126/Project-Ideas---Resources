@@ -1,7 +1,7 @@
 
 <div align="center">
   
-# 🎓 nairp126
+# 🎓 Project Ideas & Resources
   
 ### Your One-Stop Launchpad for a Career in Tech 🚀
   
@@ -29,10 +29,10 @@
 
 | I want to learn... | Go to... |
 | :--- | :--- |
-| **How to build a specific career** | [🗺️ Career Roadmaps](#-roadmaps) |
-| **What project to build next** | [💡 Project Ideas](#-project-ideas) |
-| **Which tools to use** | [🛠️ Resources & Tools](#-resources--tools) |
-| **How to contribute to Open Source** | [🤝 Making a Contribution](#-community--contribution) |
+| **How to build a specific career** | [🗺️ Career Roadmaps](#roadmaps) |
+| **What project to build next** | [💡 Project Ideas](#project-ideas) |
+| **Which tools to use** | [🛠️ Resources & Tools](#resources--tools) |
+| **How to contribute to Open Source** | [🤝 Making a Contribution](#community--contribution) |
 
 ---
 
@@ -40,7 +40,7 @@
 
 This repository is organized to help you navigate your learning journey efficiently. Click on the arrows below to explore the contents of each section.
 
-### 🗺️ Roadmaps
+### <a id="roadmaps"></a>🗺️ Roadmaps
 
 Step-by-step guides to mastering different tech roles.
 
@@ -64,7 +64,7 @@ Step-by-step guides to mastering different tech roles.
 
 ---
 
-### 💡 Project Ideas
+### <a id="project-ideas"></a>💡 Project Ideas
 
 Real-world projects to fill your GitHub portfolio.
 
@@ -85,7 +85,7 @@ Real-world projects to fill your GitHub portfolio.
 
 ---
 
-### 🛠️ Resources & Tools
+### <a id="resources--tools"></a>🛠️ Resources & Tools
 
 Cheatsheets, guides, and essential toolkits.
 
@@ -103,7 +103,7 @@ Cheatsheets, guides, and essential toolkits.
 
 ---
 
-## 🤝 Community & Contribution
+## <a id="community--contribution"></a>🤝 Community & Contribution
 
 We believe in the power of **Open Source**. This repository is built by students, for students.
 
