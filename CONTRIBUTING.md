@@ -1,6 +1,6 @@
-# 🤝 contributing to The Student Code Hub
+# 🤝 contributing to nairp126
 
-Use this guide to get started with contributing to **The Student Code Hub**! First off, thanks for taking the time to contribute. 🎉
+Use this guide to get started with contributing to **nairp126**! First off, thanks for taking the time to contribute. 🎉
 
 This repository is a space for students, by students. Whether you are fixing a typo, adding a new algorithm, or sharing a clearer explanation, your contribution matters.
 
@@ -25,8 +25,8 @@ Click the **Fork** button at the top right of this page. This creates your own c
 Open your terminal and run this command (replace `your-username` with your actual GitHub username):
 
 ```bash
-git clone https://github.com/your-username/The-Student-Code-Hub.git
-cd The-Student-Code-Hub
+git clone https://github.com/nairp126/Project-Ideas---Resources.git
+cd Project-Ideas---Resources
 ```
 
 ### 3. Create a Branch
