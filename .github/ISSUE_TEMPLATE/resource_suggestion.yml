@@ -1,0 +1,65 @@
+name: 💡 Resource Suggestion
+description: Suggest a new tool, course, or project idea for students
+title: "[Resource]: "
+labels: ["enhancement", "resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Found a great resource for students? Let us know!
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: What is the name of the tool, course, or idea?
+      placeholder: e.g., FreeCodeCamp, Figma, Project Idea
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: URL to the resource (if applicable)
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Why is this resource useful for students?
+      placeholder: This tool helps with...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What category does this fit into?
+      options:
+        - Free Tool
+        - Roadmap Update
+        - Project Idea
+        - Cheatsheet
+        - Guide
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: is-free
+    attributes:
+      label: Is it free?
+      options:
+        - "Yes, completely free"
+        - "Freemium (Has a free tier)"
+        - "Paid / Student Discount"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
