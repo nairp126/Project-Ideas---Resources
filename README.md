@@ -6,11 +6,11 @@
 ### Your One-Stop Launchpad for a Career in Tech 🚀
   
   <p align="center">
-    <img src="https://img.shields.io/github/stars/username/The-Student-Code-Hub?style=for-the-badge&logo=github&color=yellow" alt="Stars"/>
-    <img src="https://img.shields.io/github/forks/username/The-Student-Code-Hub?style=for-the-badge&logo=github&color=orange" alt="Forks"/>
-    <img src="https://img.shields.io/github/issues/username/The-Student-Code-Hub?style=for-the-badge&logo=github&color=red" alt="Issues"/>
+    <img src="https://img.shields.io/github/stars/nairp126/The-Student-Code-Hub?style=for-the-badge&logo=github&color=yellow" alt="Stars"/>
+    <img src="https://img.shields.io/github/forks/nairp126/The-Student-Code-Hub?style=for-the-badge&logo=github&color=orange" alt="Forks"/>
+    <img src="https://img.shields.io/github/issues/nairp126/The-Student-Code-Hub?style=for-the-badge&logo=github&color=red" alt="Issues"/>
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge&logo=git&logoColor=white" alt="PRs Welcome"/>
-    <img src="https://img.shields.io/github/license/username/The-Student-Code-Hub?style=for-the-badge&color=blue" alt="License"/>
+    <img src="https://img.shields.io/github/license/nairp126/The-Student-Code-Hub?style=for-the-badge&color=blue" alt="License"/>
   </p>
 
   <h3>Everything you need to go from "Hello World" to Hired.</h3>
@@ -124,3 +124,9 @@ We believe in the power of **Open Source**. This repository is built by students
     <img src="https://img.shields.io/badge/🌟_Star_this_Repo-ff69b4?style=for-the-badge&logo=github" alt="Star this Repo"/>
   </a>
 </div>
+
+---
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
