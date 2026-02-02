@@ -90,4 +90,6 @@ We are here to learn and grow.
 * **Be Constructive**: Feedback is a gift, give it gently.
 * **Be Inclusive**: Code is for everyone, regardless of background or experience level.
 
+Please read our full [**Code of Conduct**](CODE_OF_CONDUCT.md) before contributing. Combining technical excellence with a supportive environment is our priority.
+
 Happy Coding! 🦉

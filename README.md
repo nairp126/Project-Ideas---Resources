@@ -10,7 +10,9 @@
     <img src="https://img.shields.io/github/forks/nairp126/Project-Ideas---Resources?style=for-the-badge&logo=github&color=orange" alt="Forks"/>
     <img src="https://img.shields.io/github/issues/nairp126/Project-Ideas---Resources?style=for-the-badge&logo=github&color=red" alt="Issues"/>
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge&logo=git&logoColor=white" alt="PRs Welcome"/>
-    <img src="https://img.shields.io/github/license/nairp126/Project-Ideas---Resources?style=for-the-badge&color=blue" alt="License"/>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/github/license/nairp126/Project-Ideas---Resources?style=for-the-badge&color=blue" alt="License"/>
+    </a>
   </p>
 
   <h3>Everything you need to go from "Hello World" to Hired.</h3>
@@ -113,6 +115,7 @@ We believe in the power of **Open Source**. This repository is built by students
 2. Look for issues labeled `good first issue` or `help wanted`.
 3. Have a new idea? Open a [**Resource Suggestion**](.github/ISSUE_TEMPLATE/resource_suggestion.yml).
 4. Found a typo? Open a [**Bug Report**](.github/ISSUE_TEMPLATE/bug_report.yml).
+5. Please read and follow our [**Code of Conduct**](CODE_OF_CONDUCT.md).
 
 <div align="center">
   <h3>🎉 Ready to start?</h3>
@@ -129,4 +132,4 @@ We believe in the power of **Open Source**. This repository is built by students
 
 ## 📝 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [**LICENSE**](LICENSE) for more information.
