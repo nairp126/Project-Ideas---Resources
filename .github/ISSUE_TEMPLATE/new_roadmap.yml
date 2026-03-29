@@ -1,0 +1,115 @@
+name: 🗺️ New Roadmap
+description: Propose a new career roadmap for a tech role or specialization
+title: "[Roadmap]: "
+labels: ["new-content", "roadmap"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a roadmap! Roadmaps follow a monthly phase structure.
+        See [CONTENT_STANDARDS.md](../../CONTENT_STANDARDS.md) for the full format spec and an existing roadmap for reference.
+
+  - type: input
+    id: role
+    attributes:
+      label: Target Role / Career Path
+      description: The tech role or specialization this roadmap targets.
+      placeholder: "e.g., Game Developer, Blockchain Developer"
+    validations:
+      required: true
+
+  - type: input
+    id: filename
+    attributes:
+      label: Proposed Filename
+      description: Follow the naming convention `{Role}.md`.
+      placeholder: "e.g., Game-Developer.md"
+    validations:
+      required: true
+
+  - type: input
+    id: last_updated
+    attributes:
+      label: Last Updated Date
+      description: Date this roadmap was authored (ISO format).
+      placeholder: "e.g., 2026-03-29"
+    validations:
+      required: true
+
+  - type: textarea
+    id: primary_technologies
+    attributes:
+      label: Primary Technologies / Topic Tags
+      description: List the main technologies covered. These will appear as badges at the top of the roadmap.
+      placeholder: |
+        Unity, Unreal Engine, C#, C++, Game Physics, OpenGL
+    validations:
+      required: true
+
+  - type: textarea
+    id: phases_overview
+    attributes:
+      label: Monthly Phases Overview
+      description: |
+        List each phase with its title and approximate month range.
+        Each phase must include: Focus Area, Technologies, Key Concepts, Build Projects, Learning Resources, and Success Criteria.
+      placeholder: |
+        - Phase 1 (Months 1–2): Foundations — programming basics, game loop concepts
+        - Phase 2 (Months 3–4): Core Game Dev — 2D game mechanics, physics
+        - Phase 3 (Months 5–6): Intermediate — 3D environments, shaders
+        - Phase 4 (Months 7–9): Advanced — multiplayer, optimization
+        - Phase 5 (Months 10–12): Portfolio — ship a complete game
+    validations:
+      required: true
+
+  - type: textarea
+    id: salary_market
+    attributes:
+      label: Salary & Job Market
+      description: Provide median salary ranges, top hiring companies, and in-demand skills. Source from publicly available data.
+      placeholder: |
+        - Median Salary (US): $80,000–$130,000
+        - Top Hiring Companies: EA, Ubisoft, Unity Technologies, Epic Games, indie studios
+        - In-Demand Skills: Unity, Unreal Engine, C#, C++, shader programming, multiplayer networking
+    validations:
+      required: true
+
+  - type: textarea
+    id: common_mistakes
+    attributes:
+      label: Common Mistakes (at least 3)
+      description: List at least 3 pitfalls that learners in this career path commonly encounter.
+      placeholder: |
+        1. Trying to build a complex 3D game before mastering 2D fundamentals
+        2. Ignoring performance optimization until the project is too large to refactor
+        3. Skipping math fundamentals (linear algebra, trigonometry) that underpin game physics
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
+      description: Any other context, references, or notes about this roadmap.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Contribution Checklist
+      options:
+        - label: I have read [CONTENT_STANDARDS.md](../../CONTENT_STANDARDS.md)
+          required: true
+        - label: Each monthly phase includes all 6 required sub-sections (Focus, Technologies, Key Concepts, Build Projects, Resources, Success Criteria)
+          required: true
+        - label: The roadmap includes a "Last Updated" date
+          required: true
+        - label: The roadmap includes a "Salary & Job Market" section
+          required: true
+        - label: The roadmap includes a "Common Mistakes" section with at least 3 pitfalls
+          required: true
+        - label: The roadmap includes topic tags or badges for primary technologies
+          required: true
+        - label: I agree to follow this project's [Code of Conduct](../../CODE_OF_CONDUCT.md)
+          required: true

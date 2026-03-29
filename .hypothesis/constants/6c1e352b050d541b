@@ -1,0 +1,4 @@
+# file: C:\Users\nairp\AppData\Roaming\Python\Python314\site-packages\httpx\_utils.py
+# hypothesis_version: 6.151.4
+
+[443, ' \'"', '"', '%22', '%{:02X}', '*', '*.', ',', ', *<', '/', ':', '://', ';', '<> \'"', '=', 'PrimitiveData', 'SSL_CERT_DIR', 'SSL_CERT_FILE', 'URL', 'URLPattern', '[secure]', '\\', '\\\\', 'all', 'ascii', 'authorization', 'content-type', 'false', 'http', 'https', 'localhost', 'no', 'proxy-authorization', 'trio', 'true', 'url', 'utf-8', '|']

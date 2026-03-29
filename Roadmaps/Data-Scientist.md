@@ -317,3 +317,28 @@ You have a model running in the cloud that can accept requests and return predic
 * **Case Studies:** "How would you design a recommendation system for Spotify?"
 * **Coding:** SQL queries and Python data manipulation.
 * **Theory:** "Explain the bias-variance tradeoff to a non-technical person."
+
+---
+
+*Last Updated: 2026-03-29*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $100,000–$145,000/year (Junior to Mid-level)
+* **Senior Data Scientist / Staff:** $145,000–$220,000+
+* **Top Hiring Companies:** Google, Meta, Amazon, Netflix, Airbnb, Spotify, and financial institutions (JPMorgan, Goldman Sachs)
+* **In-Demand Skills:** Python, SQL, machine learning (scikit-learn, XGBoost), deep learning (PyTorch), statistics, data visualization, MLOps, communication skills
+* **Job Market Note:** Data Science has matured significantly. Employers now expect production-ready skills (MLOps, SQL, software engineering practices) in addition to modeling ability. Pure "notebook scientists" are less competitive than those who can deploy and monitor models.
+
+## ⚠️ Common Mistakes
+
+1. **Focusing on models instead of data quality** — In practice, 80% of a data scientist's time is spent on data cleaning, feature engineering, and understanding the business problem. Developers who jump straight to complex models on messy data produce unreliable results. Master EDA and data wrangling first.
+2. **Ignoring SQL** — SQL is the most-used skill in data science interviews and day-to-day work. Many candidates with strong Python skills fail interviews because they can't write a window function or optimize a slow query. Treat SQL as a first-class skill.
+3. **Not communicating results to non-technical stakeholders** — A model that can't be explained to a business stakeholder won't be adopted. Data scientists who can translate technical findings into business impact are far more valuable than those who optimize metrics in isolation.

@@ -321,3 +321,28 @@ Choosing your destiny.
 * Focus on "VDP" (Vulnerability Disclosure Programs) first—they pay in points/reputation, easier for beginners.
 
 Stay legal, stay curious, and happy hacking! 🕵️‍♂️
+
+---
+
+*Last Updated: 2026-03-29*
+
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat&logo=burpsuite&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $95,000–$145,000/year (Junior to Mid-level)
+* **Senior Security Engineer / CISO:** $145,000–$250,000+
+* **Top Hiring Companies:** CrowdStrike, Palo Alto Networks, Mandiant (Google), Microsoft Security, government agencies (NSA, CISA), financial institutions, and every large enterprise
+* **In-Demand Skills:** Penetration testing, cloud security (AWS/Azure), SIEM (Splunk), incident response, threat hunting, Python scripting, OSCP certification, DevSecOps
+* **Job Market Note:** Cybersecurity has a significant talent shortage globally. The field is highly recession-resistant — security budgets are among the last to be cut. OSCP and cloud security certifications command the highest premiums.
+
+## ⚠️ Common Mistakes
+
+1. **Skipping the fundamentals to jump to "hacking"** — Developers who skip networking, Linux, and cryptography fundamentals and jump straight to Metasploit can run exploits but can't explain what they're doing or adapt when tools fail. Solid fundamentals are what separate professionals from script kiddies.
+2. **Only focusing on offense (Red Team) or defense (Blue Team)** — The most effective security engineers understand both sides. Red teamers who don't understand detection are easier to catch; blue teamers who don't understand attack techniques miss threats. Study both, then specialize.
+3. **Neglecting the legal and ethical boundaries** — Scanning or exploiting systems without explicit written authorization is illegal, regardless of intent. Always work in authorized lab environments (HackTheBox, TryHackMe, your own VMs). One unauthorized scan can end a career before it starts.

@@ -345,3 +345,29 @@ You should have visibility into the health and performance of your applications.
 ### 🌐 Open Source
 
 * Contribute documentation fixes to projects like Terraform, Kubernetes, or smaller tools you use.
+
+---
+
+*Last Updated: 2026-03-29*
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $100,000–$150,000/year (Junior to Mid-level)
+* **Senior DevOps / Platform Engineer:** $150,000–$220,000+
+* **Top Hiring Companies:** Amazon, Google, Microsoft, Netflix, Cloudflare, HashiCorp, and any company running significant cloud infrastructure
+* **In-Demand Skills:** Kubernetes, Terraform, AWS/GCP/Azure, CI/CD pipelines, Docker, Python scripting, observability (Prometheus/Grafana), security (DevSecOps)
+* **Job Market Note:** DevOps and Platform Engineering are among the highest-paying engineering roles. The shift toward "Platform Engineering" means strong Kubernetes and IaC skills command premium salaries.
+
+## ⚠️ Common Mistakes
+
+1. **Treating DevOps as just tooling** — DevOps is a culture and set of practices, not just a collection of tools. Engineers who focus only on learning Kubernetes without understanding CI/CD philosophy, feedback loops, and collaboration principles miss the point and struggle in interviews.
+2. **Skipping Linux fundamentals** — Many DevOps learners jump straight to Kubernetes without solid Linux and networking foundations. When a pod fails to start or a network policy blocks traffic, you need to be able to debug at the OS level.
+3. **Neglecting security** — DevSecOps is not optional. Misconfigured IAM roles, exposed secrets in environment variables, and unscanned container images are the most common causes of cloud security incidents. Build security practices into every pipeline from the start.

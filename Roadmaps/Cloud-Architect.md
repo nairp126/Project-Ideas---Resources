@@ -374,3 +374,27 @@ You can lead a whiteboard session designing a complete cloud migration strategy 
 * **Meetups:** Attend local Cloud meetups.
 
 Good luck on your journey to the clouds! ☁️
+
+---
+
+*Last Updated: 2026-03-29*
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $130,000–$180,000/year (Associate to Mid-level Architect)
+* **Principal / Staff Cloud Architect:** $180,000–$280,000+
+* **Top Hiring Companies:** AWS, Google Cloud, Microsoft Azure, Accenture, Deloitte, and any enterprise undergoing cloud migration
+* **In-Demand Skills:** AWS (SAA/SAP certifications), Terraform, Kubernetes, multi-cloud strategy, cost optimization, security architecture, Well-Architected Framework
+* **Job Market Note:** Cloud Architects are among the highest-paid roles in tech. AWS certifications (especially SAP-C02) significantly increase earning potential. The shift to multi-cloud and FinOps is creating new specialization opportunities.
+
+## ⚠️ Common Mistakes
+
+1. **Chasing certifications without hands-on experience** — Certifications open doors but don't close offers. Architects who can only recite service names without having built real systems are quickly exposed in technical interviews. Build everything you study.
+2. **Designing for complexity instead of simplicity** — Over-engineered architectures with unnecessary microservices, multi-region setups, and exotic services are expensive and hard to operate. The best architects choose the simplest solution that meets the requirements.
+3. **Ignoring cost optimization** — Cloud bills can spiral out of control without deliberate cost management. Right-sizing instances, using Reserved/Spot capacity, and implementing tagging strategies are skills that directly impact business outcomes and are highly valued by employers.

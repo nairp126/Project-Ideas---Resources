@@ -27,14 +27,54 @@
 
 ---
 
+## 🚀 Start Here
+
+Not sure where to begin? Pick your experience level and jump right in.
+
+<details>
+<summary><b>🌱 I'm a Beginner</b></summary>
+
+1. Start with the **[Zero to Junior Frontend Learning Path](Learning-Paths/Zero-to-Junior-Frontend.md)** or **[Zero to Junior Backend Learning Path](Learning-Paths/Zero-to-Junior-Backend.md)**
+2. Pick a project from **[Beginner Project Ideas](Project-Ideas/Beginner/README.md)**
+3. Reference the **[Language Tracks](Language-Tracks/README.md)** to find projects in your preferred language
+4. Use the **[Cheatsheets](Resources/Cheatsheets/)** when you get stuck on syntax
+
+</details>
+
+<details>
+<summary><b>⚡ I'm Intermediate</b></summary>
+
+1. Browse **[Intermediate Project Ideas](Project-Ideas/Intermediate/README.md)** for your next build
+2. Study **[Algorithms & Data Structures](Resources/Algorithms/README.md)** to level up your CS fundamentals
+3. Explore **[Code Snippets](Resources/Snippets/README.md)** for reusable patterns
+4. Check a **[Career Roadmap](#roadmaps)** to see what skills to focus on next
+
+</details>
+
+<details>
+<summary><b>🔥 I'm Advanced / Job Hunting</b></summary>
+
+1. Tackle **[Advanced Project Ideas](Project-Ideas/Advanced/README.md)** to build portfolio-worthy systems
+2. Prep with the **[Interview Prep Section](Resources/Interview-Prep/README.md)** — DSA, System Design, Behavioral
+3. Review **[Practice Problems](Resources/Interview-Prep/Practice-Problems.md)** organized by topic and difficulty
+4. Polish your workflow with the **[Developer Workflow Guide](Resources/Guides/Developer-Workflow-Guide.md)**
+
+</details>
+
+---
+
 ## 🧭 Quick Access
 
-| I want to learn... | Go to... |
+| I want to... | Go to... |
 | :--- | :--- |
-| **How to build a specific career** | [🗺️ Career Roadmaps](#roadmaps) |
-| **What project to build next** | [💡 Project Ideas](#project-ideas) |
-| **Which tools to use** | [🛠️ Resources & Tools](#resources--tools) |
-| **How to contribute to Open Source** | [🤝 Making a Contribution](#community--contribution) |
+| **Build a specific career path** | [🗺️ Career Roadmaps](#roadmaps) |
+| **Find my next project** | [💡 Project Ideas](#project-ideas) |
+| **Prep for interviews** | [🎯 Interview Prep](Resources/Interview-Prep/README.md) |
+| **Copy reusable code** | [✂️ Snippets Library](Resources/Snippets/README.md) |
+| **Study algorithms** | [🧮 Algorithms Reference](Resources/Algorithms/README.md) |
+| **Look up syntax fast** | [📋 Cheatsheets](Resources/Cheatsheets/) |
+| **Find tools & guides** | [🛠️ Resources & Tools](#resources--tools) |
+| **Contribute to Open Source** | [🤝 Making a Contribution](#community--contribution) |
 
 ---
 
@@ -96,10 +136,55 @@ Cheatsheets, guides, and essential toolkits.
 
 * **📂 [Free Tools List](Resources/Free-Tools/README.md)**
   * A curated list of free IDEs, hosting, databases, and design tools for students.
-* **📂 [Cheatsheets](Resources/Cheatsheets/)**
-  * [Git Cheatsheet](Resources/Cheatsheets/Git-Cheatsheet.md) - Essential commands for Version Control.
+* **📂 [Cheatsheets](Resources/Cheatsheets/README.md)**
+  * Quick-reference sheets for Git, Linux/Bash, Docker, SQL, Python, JavaScript, React, TypeScript, Regex, and Markdown.
+* **📂 [Interview Prep](Resources/Interview-Prep/README.md)**
+  * DSA study guide, system design guide, behavioral interview guide, Big-O cheatsheet, and 30+ practice problems.
+* **📂 [Snippets Library](Resources/Snippets/README.md)**
+  * Reusable code patterns for authentication, APIs, databases, sorting, and string manipulation in Python, JavaScript, and Go.
+* **📂 [Algorithms & Data Structures](Resources/Algorithms/README.md)**
+  * Sorting, searching, dynamic programming, and data structure references with pseudocode and Big-O analysis.
 * **📂 [Guides](Resources/Guides/)**
   * [GitHub Profile Guide](Resources/Guides/GitHub-Profile-Guide.md) - How to structure your profile for recruiters.
+  * [Open Source Guide](Resources/Guides/Open-Source-Guide.md) - How to find and contribute to open source projects.
+  * [Developer Workflow Guide](Resources/Guides/Developer-Workflow-Guide.md) - Terminal, dotfiles, Git aliases, and debugging.
+
+</details>
+
+---
+
+### 🗺️ Language Tracks
+
+Projects organized by programming language.
+
+<details>
+<summary><b>▶️ Click to expand Language Tracks</b></summary>
+
+| Language | Projects |
+| :--- | :--- |
+| [**Python**](Language-Tracks/Python.md) | Beginner to intermediate projects using Python 3.10+ |
+| [**JavaScript**](Language-Tracks/JavaScript.md) | Projects using Node.js 18+ and browser JS |
+| [**Java**](Language-Tracks/Java.md) | Projects using Java 17+ |
+| [**C++**](Language-Tracks/C++.md) | Projects using C++17 standard |
+| [**Go**](Language-Tracks/Go.md) | Projects using Go 1.21+ |
+
+</details>
+
+---
+
+### 🛤️ Learning Paths
+
+Curated end-to-end plans combining roadmaps, projects, and resources.
+
+<details>
+<summary><b>▶️ Click to expand Learning Paths</b></summary>
+
+| Path | Who It's For |
+| :--- | :--- |
+| [**Zero to Junior Frontend**](Learning-Paths/Zero-to-Junior-Frontend.md) | Complete beginners targeting frontend roles |
+| [**Zero to Junior Backend**](Learning-Paths/Zero-to-Junior-Backend.md) | Complete beginners targeting backend roles |
+| [**Zero to Data Scientist**](Learning-Paths/Zero-to-Data-Scientist.md) | Beginners interested in data and ML |
+| [**Career Changer Path**](Learning-Paths/Career-Changer-Path.md) | Professionals switching into tech |
 
 </details>
 

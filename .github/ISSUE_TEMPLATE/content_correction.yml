@@ -1,0 +1,72 @@
+name: ✏️ Content Correction
+description: Report a typo, broken link, outdated information, or structural issue in existing content
+title: "[Correction]: "
+labels: ["correction", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the content accurate! Please fill in as much detail as possible so we can address the issue quickly.
+
+  - type: input
+    id: file_path
+    attributes:
+      label: File Path
+      description: Relative path to the file containing the issue.
+      placeholder: "e.g., Roadmaps/Backend-Engineer.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Type of Issue
+      options:
+        - Typo or grammar error
+        - Broken or incorrect link
+        - Outdated information
+        - Missing required field / structural issue
+        - Incorrect code example
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of Issue
+      description: Clearly describe what is wrong. Include the section heading or line content where the issue appears.
+      placeholder: |
+        In the "Phase 2" section, the link to the Node.js documentation points to a 404 page.
+        The current text reads: [Node.js Docs](https://nodejs.org/old-docs)
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested Fix
+      description: Provide the corrected text, link, or content. If you're unsure of the fix, describe what the correct information should be.
+      placeholder: |
+        The link should be updated to: [Node.js Docs](https://nodejs.org/en/docs)
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source / Reference (optional)
+      description: If applicable, provide a link to a source that supports the correction.
+      placeholder: "e.g., https://nodejs.org/en/docs"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      options:
+        - label: I have verified the issue exists in the current version of the file
+          required: true
+        - label: I agree to follow this project's [Code of Conduct](../../CODE_OF_CONDUCT.md)
+          required: true

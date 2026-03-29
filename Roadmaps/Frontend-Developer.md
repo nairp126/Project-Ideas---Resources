@@ -376,3 +376,28 @@ You are confident applying for Junior/Mid Frontend Developer roles!
 3. **Clean UI:** Design matters for Frontend devs.
 
 Good luck! 🚀
+
+---
+
+*Last Updated: 2026-03-29*
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $85,000–$130,000/year (Junior to Mid-level)
+* **Senior Frontend Engineer:** $130,000–$185,000+
+* **Top Hiring Companies:** Meta, Google, Airbnb, Vercel, Shopify, Netflix, and virtually every product company
+* **In-Demand Skills:** React, TypeScript, Next.js, Tailwind CSS, performance optimization, accessibility, testing (Jest/Playwright)
+* **Job Market Note:** Frontend roles are highly competitive at the junior level. Strong portfolio projects with live deployments and TypeScript proficiency are the biggest differentiators.
+
+## ⚠️ Common Mistakes
+
+1. **Jumping to frameworks before mastering JavaScript** — Developers who learn React before understanding closures, the event loop, and async/await struggle to debug framework behavior. Spend real time on vanilla JS fundamentals first.
+2. **Neglecting performance and accessibility** — Building something that works is not enough. Core Web Vitals, semantic HTML, and keyboard navigation are evaluated in senior interviews and affect real users. Build these habits early.
+3. **Not deploying projects** — A GitHub repo without a live link is invisible to most recruiters. Deploy every project to Vercel, Netlify, or GitHub Pages from day one.

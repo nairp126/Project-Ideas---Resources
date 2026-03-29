@@ -77,3 +77,38 @@ Welcome to the Beginner Projects section! These projects are perfect for first-y
 ---
 
 *Pick one and start coding!* 🚀
+
+## 11. Personal Budget Tracker 💰
+
+**Core Concept:** File I/O, Data Aggregation, Dictionaries
+**Description:** Build a CLI app that lets users log income and expenses by category (food, rent, entertainment). Display monthly summaries showing total income, total spending, and balance per category.
+**Tech Stack:** Python
+**Bonus Challenge:** Add CSV import/export, visualize spending with a matplotlib bar chart, or set monthly budget limits with alerts when a category is exceeded.
+
+## 12. Weather CLI Tool 🌤️
+
+**Core Concept:** HTTP Requests, JSON Parsing, API Integration
+**Description:** Fetch current weather data for a city using a free weather API (e.g., Open-Meteo). Display temperature, humidity, wind speed, and a short forecast in a readable terminal format.
+**Tech Stack:** Python (requests library) or JavaScript (Node.js with fetch)
+**Bonus Challenge:** Cache results to avoid redundant API calls, support multiple cities at once, or add a 7-day forecast view.
+
+## 13. Flashcard Study App 🃏
+
+**Core Concept:** Object-Oriented Programming, File I/O, Randomization
+**Description:** Create a flashcard app where users can create decks of question/answer cards, study them in random order, and track how many they got right per session.
+**Tech Stack:** Python or JavaScript (Node.js CLI)
+**Bonus Challenge:** Implement a spaced repetition algorithm (show cards you got wrong more often), add multiple-choice mode, or build a simple terminal UI with curses/blessed.
+
+## 14. Snake Game 🐍
+
+**Core Concept:** Game Loop, 2D Grid, Keyboard Input, Collision Detection
+**Description:** Implement the classic Snake game in a terminal or simple window. The snake grows when it eats food, and the game ends when it hits a wall or itself. Track and display the score.
+**Tech Stack:** Python (pygame or curses) or JavaScript (HTML5 Canvas)
+**Bonus Challenge:** Add difficulty levels (speed increases over time), a high-score leaderboard saved to a file, or a two-player mode on the same keyboard.
+
+## 15. Markdown Note-Taking CLI 📝
+
+**Core Concept:** File System Operations, String Formatting, CLI Argument Parsing
+**Description:** Build a command-line note manager where users can create, list, view, search, and delete notes stored as plain `.md` files in a local folder. Each note has a title and body.
+**Tech Stack:** Python (argparse) or JavaScript (Node.js with commander)
+**Bonus Challenge:** Add tagging support, full-text search across all notes, or export all notes to a single PDF using a library like `fpdf` (Python) or `pdfkit` (Node.js).

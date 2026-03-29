@@ -1,0 +1,97 @@
+name: 📋 New Cheatsheet
+description: Propose a new cheatsheet for a tool, language, or technology
+title: "[Cheatsheet]: "
+labels: ["new-content", "cheatsheet"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a cheatsheet! All cheatsheets must follow the required format.
+        See [CONTENT_STANDARDS.md](../../CONTENT_STANDARDS.md) for the full format spec.
+
+  - type: input
+    id: topic
+    attributes:
+      label: Cheatsheet Topic
+      description: The tool, language, or technology this cheatsheet covers.
+      placeholder: "e.g., Docker, TypeScript, Regex"
+    validations:
+      required: true
+
+  - type: input
+    id: filename
+    attributes:
+      label: Proposed Filename
+      description: Follow the naming convention `{Topic}-Cheatsheet.md`.
+      placeholder: "e.g., Docker-Cheatsheet.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: sections
+    attributes:
+      label: Planned Sections (at least 3)
+      description: List the `##` sections you plan to include. Each section must have code blocks for all commands/syntax.
+      placeholder: |
+        ## Installation & Setup
+        ## Basic Commands
+        ## Networking
+        ## Volumes & Storage
+        ## Docker Compose
+    validations:
+      required: true
+
+  - type: textarea
+    id: toc_preview
+    attributes:
+      label: Table of Contents Preview
+      description: Provide a preview of the table of contents with anchor links to each section.
+      placeholder: |
+        ## Table of Contents
+        - [Installation & Setup](#installation--setup)
+        - [Basic Commands](#basic-commands)
+        - [Networking](#networking)
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample_entry
+    attributes:
+      label: Sample Entry
+      description: Provide one example entry showing a section heading, description, and fenced code block with language identifier.
+      placeholder: |
+        ## Basic Commands
+
+        Start and stop containers.
+
+        ```bash
+        docker start <container_id>
+        docker stop <container_id>
+        ```
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
+      description: Any other context, references, or notes about this cheatsheet.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Contribution Checklist
+      options:
+        - label: I have read [CONTENT_STANDARDS.md](../../CONTENT_STANDARDS.md)
+          required: true
+        - label: The cheatsheet will have at least 3 labeled `##` sections
+          required: true
+        - label: All commands and syntax examples will be in fenced code blocks with a language identifier
+          required: true
+        - label: The cheatsheet will include a table of contents with anchor links
+          required: true
+        - label: I agree to follow this project's [Code of Conduct](../../CODE_OF_CONDUCT.md)
+          required: true

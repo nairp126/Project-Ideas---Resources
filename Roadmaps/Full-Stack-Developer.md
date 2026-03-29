@@ -278,3 +278,29 @@ This comprehensive roadmap guides you from zero to a production-ready Full Stack
 * **Algorithms:** LeetCode (Blind 75 list).
 * **System Design:** Design Uber/Twitter/Instagram (High-level).
 * **Behavioral:** STAR Method (Situation, Task, Action, Result).
+
+---
+
+*Last Updated: 2026-03-29*
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $90,000–$140,000/year (Junior to Mid-level)
+* **Senior Full Stack Engineer:** $140,000–$200,000+
+* **Top Hiring Companies:** Startups and scale-ups heavily favor full-stack engineers; also strong demand at Shopify, GitHub, Atlassian, and mid-size product companies
+* **In-Demand Skills:** React, Node.js/Express, TypeScript, PostgreSQL, Docker, REST APIs, Next.js, CI/CD
+* **Job Market Note:** Full-stack roles are the most common job posting for developers. The MERN stack remains highly employable, but TypeScript proficiency and cloud deployment experience are increasingly expected even at junior levels.
+
+## ⚠️ Common Mistakes
+
+1. **Being shallow in both frontend and backend** — "Full stack" doesn't mean mediocre at everything. Employers expect genuine depth in at least one area. Pick a primary strength (frontend or backend) and build depth there while maintaining competence in the other.
+2. **Skipping TypeScript** — JavaScript-only full-stack developers are increasingly at a disadvantage. TypeScript catches entire classes of bugs at compile time and is now the default in most professional codebases. Learn it early.
+3. **Not understanding the database layer** — Many full-stack developers treat the database as a black box. Poor schema design and N+1 query problems are among the most common causes of slow applications. Invest time in SQL and database design fundamentals.

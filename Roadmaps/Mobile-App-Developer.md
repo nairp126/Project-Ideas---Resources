@@ -266,3 +266,28 @@ Submit an app to the App Store / Play Store (or at least TestFlight).
 
 * **Freelancing:** High demand for "MVP" apps. React Native is perfect for this (speed to market).
 * **Full-Time:** Companies want depth. Know *why* a list is slow, and how to fix memory leaks.
+
+---
+
+*Last Updated: 2026-03-29*
+
+![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=flat&logo=apple&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $90,000–$135,000/year (Junior to Mid-level)
+* **Senior Mobile Engineer:** $135,000–$190,000+
+* **Top Hiring Companies:** Apple, Google, Meta, Uber, Lyft, DoorDash, and any consumer-facing company with a mobile app
+* **In-Demand Skills:** React Native, Swift (iOS), Kotlin (Android), TypeScript, Expo, performance optimization, App Store/Play Store deployment, push notifications, offline-first architecture
+* **Job Market Note:** Mobile engineers who know both React Native and at least one native language (Swift or Kotlin) are highly valued. The demand for cross-platform developers has grown significantly as companies seek to maintain single codebases for iOS and Android.
+
+## ⚠️ Common Mistakes
+
+1. **Ignoring native platform differences** — React Native abstracts iOS and Android, but the platforms have fundamentally different UX conventions, permission models, and performance characteristics. Developers who don't understand the underlying platforms ship apps that feel wrong on one or both platforms.
+2. **Not testing on real devices early** — Simulators and emulators miss real-world issues like touch responsiveness, battery drain, network variability, and platform-specific bugs. Test on physical devices from the first prototype.
+3. **Skipping TypeScript** — JavaScript-only React Native codebases become unmaintainable quickly as apps grow. TypeScript catches prop type errors, API response mismatches, and navigation parameter bugs at compile time. Adopt it from the start of every project.

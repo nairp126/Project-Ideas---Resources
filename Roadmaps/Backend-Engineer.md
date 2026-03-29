@@ -229,3 +229,28 @@ By the end of Month 11, you should be able to discuss trade-offs in system desig
 ### Milestone
 
 **You are hired!** 🎉
+
+---
+
+*Last Updated: 2026-03-29*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $95,000–$140,000/year (Junior to Mid-level)
+* **Senior Backend Engineer:** $140,000–$200,000+
+* **Top Hiring Companies:** Google, Amazon, Meta, Stripe, Shopify, Airbnb, and thousands of startups
+* **In-Demand Skills:** Python, Node.js, Go, PostgreSQL, Redis, Kafka, Docker, Kubernetes, REST/GraphQL API design, system design
+* **Job Market Note:** Backend engineering is one of the most in-demand roles in tech. Strong SQL and system design skills are the biggest differentiators at senior levels.
+
+## ⚠️ Common Mistakes
+
+1. **Skipping database fundamentals** — Many developers jump straight to ORMs without understanding SQL. When performance issues arise, they have no tools to diagnose them. Learn raw SQL and understand query plans before relying on abstractions.
+2. **Ignoring security from the start** — Authentication, input validation, and OWASP Top 10 vulnerabilities are not "add later" concerns. A single SQL injection or exposed JWT secret can compromise an entire application.
+3. **Not writing tests** — Backend code without tests is a liability. Untested APIs break silently in production. Adopt a habit of writing at least integration tests for every endpoint from the beginning.

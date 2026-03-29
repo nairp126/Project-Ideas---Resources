@@ -274,3 +274,27 @@ Apply to jobs. You are ready.
 * **Niche:** Focus on "Figma to React" conversion services to start fast.
 
 Good luck creating beautiful and functional experiences! 🎨💻
+
+---
+
+*Last Updated: 2026-03-29*
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat&logo=framer&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $80,000–$120,000/year (Junior to Mid-level Designer)
+* **Senior UX Engineer / Design Engineer:** $120,000–$180,000+
+* **Top Hiring Companies:** Apple, Google, Airbnb, Figma, Stripe, Linear, and any product company with a design-focused culture
+* **In-Demand Skills:** Figma, user research, design systems, prototyping, React/TypeScript (for hybrid roles), accessibility (WCAG), motion design, Storybook
+* **Job Market Note:** The "Design Engineer" hybrid role is one of the fastest-growing positions in tech. Designers who can implement their own designs in React command significantly higher salaries than pure designers. Accessibility expertise is increasingly required.
+
+## ⚠️ Common Mistakes
+
+1. **Designing in isolation without user research** — Beautiful designs that don't solve real user problems fail in production. Usability testing, even informal hallway testing with 5 users, reveals more issues than weeks of solo design iteration. Validate assumptions early and often.
+2. **Ignoring accessibility** — Designs that don't meet WCAG contrast ratios, lack keyboard navigation, or use color as the only information carrier exclude users with disabilities and create legal liability. Build accessibility checks into every design review.
+3. **Not learning to code (for hybrid roles)** — Designers who can't implement their designs are dependent on engineers to translate their vision, which introduces friction and compromises. Even basic React and CSS skills allow designers to prototype in code, communicate more precisely with engineers, and access higher-paying hybrid roles.

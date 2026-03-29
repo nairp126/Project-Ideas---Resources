@@ -1,0 +1,171 @@
+name: 💡 New Project Idea
+description: Suggest a new project idea for Beginner, Intermediate, or Advanced level
+title: "[Project Idea]: "
+labels: ["new-content", "project-idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a project idea! Please fill in all required fields for your chosen difficulty level.
+        See [CONTENT_STANDARDS.md](../../CONTENT_STANDARDS.md) for format details.
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty Level
+      description: Which level is this project idea for?
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Project Title
+      placeholder: "e.g., Personal Budget Tracker"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      description: Which domain does this project cover?
+      options:
+        - Web Development
+        - Mobile Development
+        - Data Science
+        - Machine Learning
+        - CLI Tools
+        - Game Development
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description / Problem Statement
+      description: |
+        **Beginner:** 2–4 sentence problem description.
+        **Intermediate/Advanced:** Clear problem statement.
+      placeholder: Describe the problem this project solves...
+    validations:
+      required: true
+
+  - type: textarea
+    id: core_concepts
+    attributes:
+      label: Core Concepts (Beginner) / Key Features (Intermediate)
+      description: |
+        **Beginner:** Comma-separated CS/programming concepts practiced.
+        **Intermediate:** Bulleted MVP feature list.
+        **Advanced:** Leave blank (use Microservices Architecture field below).
+      placeholder: |
+        Beginner: Arrays, loops, file I/O
+        Intermediate:
+        - User authentication
+        - CRUD operations
+        - REST API
+    validations:
+      required: false
+
+  - type: input
+    id: tech_stack
+    attributes:
+      label: Recommended Tech Stack (Beginner) / Language & Runtime (Intermediate)
+      description: Recommended language(s) or framework(s).
+      placeholder: "e.g., Python, JavaScript / Node.js 18+"
+    validations:
+      required: false
+
+  - type: textarea
+    id: database_schema
+    attributes:
+      label: Database Schema (Intermediate only)
+      description: Text-format table definitions.
+      placeholder: |
+        Users: id, username, email, password_hash, created_at
+        Posts: id, user_id, title, body, created_at
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: api_endpoints
+    attributes:
+      label: API Endpoints (Intermediate only)
+      description: List of METHOD /path - description.
+      placeholder: |
+        - GET /api/users - list all users
+        - POST /api/users - create a new user
+        - DELETE /api/users/:id - delete a user
+    validations:
+      required: false
+
+  - type: textarea
+    id: microservices
+    attributes:
+      label: Microservices Architecture (Advanced only)
+      description: Numbered list of services with their responsibilities.
+      placeholder: |
+        1. Auth Service - handles user authentication and JWT issuance
+        2. Data Service - manages persistence and queries
+    validations:
+      required: false
+
+  - type: textarea
+    id: containerization
+    attributes:
+      label: Containerization Strategy (Advanced only)
+      description: Dockerfile or Kubernetes YAML example.
+      render: yaml
+    validations:
+      required: false
+
+  - type: textarea
+    id: cloud_infrastructure
+    attributes:
+      label: Cloud Infrastructure Overview (Advanced only)
+      description: Bulleted list of cloud components used.
+      placeholder: |
+        - AWS ECS for container orchestration
+        - RDS for managed PostgreSQL
+        - S3 for static asset storage
+    validations:
+      required: false
+
+  - type: textarea
+    id: system_design
+    attributes:
+      label: System Design Challenge (Advanced only)
+      description: Problem statement and key considerations.
+      placeholder: |
+        Problem: Design a system that handles 10k concurrent users...
+        Key Considerations: horizontal scaling, caching strategy, database sharding
+    validations:
+      required: false
+
+  - type: textarea
+    id: bonus
+    attributes:
+      label: Bonus Challenge (Beginner) / System Design Challenge (Advanced)
+      description: At least one extension idea or stretch goal.
+      placeholder: "e.g., Add export to CSV functionality"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Contribution Checklist
+      options:
+        - label: I have read [CONTENT_STANDARDS.md](../../CONTENT_STANDARDS.md)
+          required: true
+        - label: All required fields for my chosen difficulty level are filled in
+          required: true
+        - label: I agree to follow this project's [Code of Conduct](../../CODE_OF_CONDUCT.md)
+          required: true

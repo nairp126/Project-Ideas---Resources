@@ -381,3 +381,28 @@ You understand the entire infrastructure stack required to support an AI team.
 * **Focus:** Not just the algorithm (Matrix Factorization), but the *system*: How to handle real-time updates? How to handle latency? Where to store the embeddings?
 
 Keep engineering! 🛠️
+
+---
+
+*Last Updated: 2026-03-29*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+
+## 💰 Salary & Job Market
+
+* **Median Salary (US):** $120,000–$170,000/year (Junior to Mid-level)
+* **Senior ML Engineer / Staff:** $170,000–$280,000+ (including equity)
+* **Top Hiring Companies:** Google DeepMind, OpenAI, Anthropic, Meta AI, Amazon, Microsoft, Hugging Face, and AI-first startups
+* **In-Demand Skills:** Python, PyTorch, MLOps (MLflow, DVC, Kubeflow), Docker/Kubernetes, distributed training, model serving (FastAPI, Triton), LLM fine-tuning
+* **Job Market Note:** ML Engineering is one of the fastest-growing and highest-paying roles in tech. The rise of LLMs has created massive demand for engineers who can fine-tune, deploy, and monitor large models at scale.
+
+## ⚠️ Common Mistakes
+
+1. **Treating notebooks as production code** — Jupyter notebooks are for exploration, not production. ML engineers who can't refactor notebook code into testable, modular Python packages are not production-ready. Learn software engineering practices alongside ML.
+2. **Ignoring model monitoring and drift** — A model that performs well at deployment will degrade over time as data distributions shift. Engineers who deploy models without monitoring pipelines are setting up silent failures. Build monitoring from day one.
+3. **Underestimating the infrastructure complexity** — Training a model locally and serving it to millions of users are completely different engineering challenges. Invest time in understanding distributed systems, load balancing, and latency requirements before designing production ML systems.

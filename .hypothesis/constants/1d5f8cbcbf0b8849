@@ -1,0 +1,4 @@
+# file: C:\Users\nairp\AppData\Roaming\Python\Python314\site-packages\requests_toolbelt\utils\user_agent.py
+# hypothesis_version: 6.151.4
+
+['%s.%s.%s', '%s/%s', 'CPython', 'IronPython', 'Jython', 'PyPy', 'Unknown', 'final']

@@ -92,4 +92,40 @@ We are here to learn and grow.
 
 Please read our full [**Code of Conduct**](CODE_OF_CONDUCT.md) before contributing. Combining technical excellence with a supportive environment is our priority.
 
+---
+
+## 🌟 Good First Issue Guide
+
+New to open source? These contribution types are perfect for first-time contributors. Each one is self-contained, well-defined, and doesn't require deep knowledge of the existing codebase.
+
+Before you start, read [**CONTENT_STANDARDS.md**](CONTENT_STANDARDS.md) to understand the required format for each content type.
+
+### ✅ Great for First-Timers
+
+| Contribution Type | Why It's Beginner-Friendly | Issue Label |
+| :--- | :--- | :--- |
+| **Fix a typo or grammar error** | Small, low-risk, and immediately useful | `good first issue` |
+| **Add a beginner project idea** | Clear format defined in CONTENT_STANDARDS.md | `good first issue` |
+| **Add a code snippet** | Self-contained, no dependencies on other files | `good first issue` |
+| **Add a cheatsheet entry** | Structured format, easy to verify | `good first issue` |
+| **Fix a broken link** | Find it, fix it, done | `good first issue` |
+| **Improve a description** | Clarify existing content without restructuring | `good first issue` |
+
+### 📋 Step-by-Step for Your First Contribution
+
+1. **Find an issue** — Look for issues labeled `good first issue` in the Issues tab.
+2. **Comment on it** — Say "I'd like to work on this!" so others know it's taken.
+3. **Read the standard** — Check [CONTENT_STANDARDS.md](CONTENT_STANDARDS.md) for the format of the content type you're adding.
+4. **Fork, branch, and write** — Follow the workflow above.
+5. **Open a PR** — Use the PR template checklist to make sure everything is in order.
+6. **Respond to feedback** — Reviewers may suggest small changes; that's normal and expected.
+
+### 🚫 Save These for Later
+
+The following contribution types require more context and are better suited for contributors who have already made at least one contribution:
+
+- Adding a new Career Roadmap (requires following the full monthly structure)
+- Adding a new Learning Path (requires linking across multiple sections)
+- Restructuring existing directories
+
 Happy Coding! 🦉
