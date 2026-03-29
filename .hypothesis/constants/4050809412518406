@@ -1,4 +1,0 @@
-# file: C:\Users\nairp\AppData\Roaming\Python\Python314\site-packages\opentelemetry\sdk\trace\sampling.py
-# hypothesis_version: 6.151.4
-
-[0.0, 1.0, 'AlwaysOffSampler', 'AlwaysOnSampler', 'Attributes', 'Context', 'Decision', 'Link', 'SamplingResult', 'TraceState', 'always_off', 'always_on', 'traceidratio']

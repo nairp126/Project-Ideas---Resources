@@ -1,4 +1,0 @@
-# file: C:\Users\nairp\AppData\Roaming\Python\Python314\site-packages\httpx\_types.py
-# hypothesis_version: 6.151.4
-
-['Auth', 'Cookies', 'Headers', 'Proxy', 'QueryParams', 'RawURL', 'Request', 'Timeout', 'URL', 'port', 'raw_host', 'raw_path', 'raw_scheme']

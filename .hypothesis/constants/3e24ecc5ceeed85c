@@ -1,4 +1,0 @@
-# file: C:\Users\nairp\AppData\Roaming\Python\Python314\site-packages\zipp\glob.py
-# hypothesis_version: 6.151.4
-
-['*', '**', '.*', '?*', 'Invalid separators', '[^/]', '\\*', '\\*\\*', '\\?', 'set']

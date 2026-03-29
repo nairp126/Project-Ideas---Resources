@@ -1,4 +1,0 @@
-# file: C:\Users\nairp\AppData\Roaming\Python\Python314\site-packages\httpx\_urls.py
-# hypothesis_version: 6.151.4
-
-['/', ':', '?', 'QueryParams', 'Too many arguments.', 'URL', 'ascii', 'fragment', 'host', 'netloc', 'params', 'password', 'path', 'port', 'query', 'raw_path', 'scheme', 'userinfo', 'username', 'xn--']

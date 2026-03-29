@@ -1,4 +1,0 @@
-# file: C:\Users\nairp\AppData\Roaming\Python\Python314\site-packages\httpx\_config.py
-# hypothesis_version: 6.151.4
-
-[5.0, 100, '!DSS', '!MD5', '!aNULL', '!eNULL', '********', ':', 'DH+AES', 'DH+AESGCM', 'DHE+AESGCM', 'DHE+CHACHA20', 'ECDH+AES', 'ECDH+AESGCM', 'ECDHE+AESGCM', 'ECDHE+CHACHA20', 'RSA+AES', 'RSA+AESGCM', 'SSLKEYLOGFILE', 'connect', 'h2', 'http', 'http/1.1', 'https', 'httpx', 'pool', 'read', 'socks5', 'utf-8', 'write']
